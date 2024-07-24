@@ -1,3 +1,10 @@
+# environment.yaml
+#
+# This file configures the settings for the Cosmic Cafe simulation environment.
+# It defines game phases, global variables, events, and other parameters that
+# shape the problem-solving scenario. Adjust these values to create different
+# simulation experiences or to fine-tune the game mechanics.
+
 environment:
   name: Cosmic Cafe
   location: Edge of the Universe

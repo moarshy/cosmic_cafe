@@ -1,3 +1,11 @@
+# report.yaml
+#
+# This file presents a structured example of the final report generated after
+# a Cosmic Cafe simulation. It showcases the format and types of information
+# captured during the problem-solving process. The actual report will be
+# dynamically generated based on the specific events and outcomes of each
+# unique simulation run.
+
 cosmic_simulation_report:
   galactic_problem: 
     description: "[Original problem statement]"

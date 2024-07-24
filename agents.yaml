@@ -1,3 +1,10 @@
+# agents.yaml
+#
+# This file defines the characteristics and abilities of each agent in the
+# Cosmic Cafe simulation. Each agent has a unique set of traits, skills,
+# and background information that influence their problem-solving approach.
+# Modify this file to adjust agent behaviors or add new agents to the simulation.
+
 agents:
   - name: Zorp
     species: Morphosian

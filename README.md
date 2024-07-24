@@ -71,8 +71,7 @@ Orchestrator gathers all processing data and solution components
 Compiles a final report showcasing the problem-solving process and solution
 
 ## Example Interaction Flow:
-Orchestrator Tasks:
-
+### Orchestrator Tasks:
 1. Cosmic Awakening Phase:
 Load and parse all YAML files (environment, agents)
 Initialize agent nodes with their profiles
@@ -110,3 +109,25 @@ Monitor for timeout or max rounds reached
 Handle agent node failures or non-responses
 Update and maintain game state
 Log all interactions and decisions for the final report
+
+### Agent Node
+1. Receive Input
+User message
+Conversation history
+Agent profile
+
+2. Process Input
+Analyze context
+Generate initial response
+Apply personality traits
+Check for relevant special abilities
+Align response with agent's goals
+Add character quirks
+
+3. Generate Output
+Finalize agent response
+Update conversation history
+
+4. Send Output
+Deliver response to user
+Store updated conversation history
