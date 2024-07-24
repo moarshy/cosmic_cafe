@@ -1,0 +1,73 @@
+cosmic_simulation_report:
+  galactic_problem: 
+    description: "[Original problem statement]"
+    severity: [1-10 scale]
+
+  cosmic_timeline:
+    total_rounds: [number]
+    total_time: "[in cosmic minutes]"
+
+  phase_summaries:
+    - phase: "Cosmic Awakening"
+      key_events: 
+        - "[Event 1]"
+        - "[Event 2]"
+      
+    - phase: "Galactic Scan"
+      key_insights:
+        - agent: "[Agent name]"
+          insight: "[Key insight]"
+      global_variables_snapshot:
+        plague_spread_rate: [value]
+        galactic_panic_level: [value]
+        
+    - phase: "Nebula Brainstorm"
+      solution_candidates:
+        - description: "[Solution 1]"
+          proposed_by: "[Agent name]"
+          initial_feasibility: [0-100%]
+        - description: "[Solution 2]"
+          proposed_by: "[Agent name]"
+          initial_feasibility: [0-100%]
+      
+    - phase: "Stellar Refinement"
+      refinement_actions:
+        - action: "[Refinement action]"
+          impact: "[Impact description]"
+      
+    - phase: "Universal Convergence"
+      final_solution:
+        description: "[Detailed solution description]"
+        feasibility: [0-100%]
+        predicted_effectiveness: [0-100%]
+
+  agent_contributions:
+    - name: "[Agent name]"
+      key_contributions:
+        - "[Contribution 1]"
+        - "[Contribution 2]"
+      unique_ability_usage:
+        description: "[How the agent's unique ability was utilized]"
+        impact: "[Impact on the solution]"
+
+  cosmic_events:
+    - event: "[Event name]"
+      description: "[Event description]"
+      impact_on_solution: "[How it affected the problem-solving process]"
+
+  unintended_consequences:
+    - description: "[Potential unintended consequence]"
+      probability: [0-100%]
+      severity: [1-10 scale]
+
+  future_implications:
+    - "[Implication 1]"
+    - "[Implication 2]"
+
+  simulation_metrics:
+    agent_agreement_level: [0-100%]
+    solution_novelty: [0-100%]
+    cross_disciplinary_synergy: [0-100%]
+
+  closing_statement: >
+    [A brief narrative summary of the simulation outcome and its significance for the galaxy]

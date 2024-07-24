@@ -1,0 +1,71 @@
+environment:
+  name: Cosmic Cafe
+  location: Edge of the Universe
+  time_scale:
+    1_game_minute: 1_real_second
+  max_simulation_time: 60_game_minutes
+
+  events:
+    - name: Refugee Ship Arrival
+      description: A ship of plague refugees arrives at the Cosmic Cafe
+      trigger_time: 15_minutes
+      impact: high
+
+    - name: Power Fluctuation
+      description: The Cafe experiences a temporary power outage
+      trigger_time: random
+      impact: medium
+
+    - name: Mysterious Artifact Discovery
+      description: A customer finds an unknown artifact in their food
+      trigger_time: 40_minutes
+      impact: low
+
+  global_variables:
+    plague_spread_rate: 3.7
+    galactic_panic_level: 0.6
+    cure_progress: 0.0
+
+  interaction_spots:
+    - name: Main Counter
+      capacity: 2
+    - name: Lounge Area
+      capacity: 4
+    - name: Private Booth
+      capacity: 2
+
+  resources:
+    - name: Exotic Ingredients
+      quantity: 100
+    - name: Universal Translator Devices
+      quantity: 5
+    - name: Emergency Medical Kits
+      quantity: 3
+
+  background_info:
+    galactic_news: >
+      Reports of a new space plague are causing concern across the galaxy.
+      Scientists are racing to find a cure, while authorities urge calm.
+    local_rumors: >
+      Whispers among cafe patrons suggest that the plague might be 
+      an engineered bioweapon rather than a natural occurrence.
+            
+  game_phases:
+    - name: Cosmic Awakening
+      description: Initial setup and problem presentation
+      max_rounds: 1
+    - name: Galactic Scan
+      description: Analyzing the problem from various perspectives
+      max_rounds: 5
+    - name: Nebula Brainstorm
+      description: Developing potential solutions
+      max_rounds: 10
+    - name: Stellar Refinement
+      description: Refining and improving proposed solutions
+      max_rounds: 5
+    - name: Universal Convergence
+      description: Finalizing and presenting the solution
+      max_rounds: 1
+
+  max_total_rounds: 25
+  round_timeout_seconds: 30
